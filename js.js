@@ -51,7 +51,7 @@ const reset = document.getElementById("reset")
 // теперь добавляем действия к кнопочкам start, stop, reset
 
 start.addEventListener("click", function(){
-if(!intervalic){// !означает "не", мы проверяем не запущен ли таймер с помощью intervalic
+if(!intervalic){// "!" означает "не", мы проверяем не запущен ли таймер с помощью intervalic
 intervalic = setInterval(function(){
   ct++ // увеличиваем счетчик
   ourtext.textContent = ct;
